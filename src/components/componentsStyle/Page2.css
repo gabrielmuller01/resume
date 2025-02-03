@@ -1,0 +1,36 @@
+/* Page2.css */
+.page2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px; /* Adiciona espaço para a navbar */
+    height: 100vh;
+    position: relative;
+}
+
+.page2 .Title {
+    position: absolute; /* Posiciona o título de forma absoluta */
+    top: 8%; /* Ajusta a distância do topo */
+    left: 20px; /* Ajusta a distância da esquerda */
+}
+
+h2 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.InfoContainer {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Espaçamento entre os itens */
+    justify-content: center;
+}
+
+.contact-item {
+    padding: 10px;
+}
+
+.address {
+    padding: 10px;
+}

@@ -1,0 +1,68 @@
+/* Page4.css */
+.page4 {
+    display: flex;
+    padding-top: 60px; /* Adiciona espaço para a navbar */
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Aligns content to the top */
+    height: 100vh;
+    position: relative;
+    padding: 20px;
+    overflow-y: auto; /* Allows vertical scrolling */
+}
+
+.page4 .Title {
+    position: absolute; /* Positions the title absolutely */
+    top: 8%; /* Adjusts the distance from the top */
+    left: 20px; /* Adjusts the distance from the left */
+}
+
+h2 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 100px; /* Top margin to avoid overlap with the title */
+}
+
+.grid-item {
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.grid-item.large {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.grid-item.small {
+    display: flex;
+    justify-content: space-between;
+}
+
+.grid-item.small .item {
+    width: 48%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+
+    .grid{
+        margin-top: 115px;
+    }
+
+    .grid-item.small {
+        flex-direction: column;
+    }
+
+    .grid-item.small .item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}

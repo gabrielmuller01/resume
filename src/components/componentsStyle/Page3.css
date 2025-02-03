@@ -1,0 +1,62 @@
+/* Page3.css */
+.page3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Alinha o conteúdo ao topo */
+    height: 100vh;
+    position: relative;
+    padding: 20px;
+    padding-top: 60px; /* Adiciona espaço para a navbar */
+    overflow-y: auto; /* Permite rolagem vertical */
+}
+
+.page3 .Title {
+    position: absolute; /* Posiciona o título de forma absoluta */
+    top: 8%; /* Ajusta a distância do topo */
+    left: 20px; /* Ajusta a distância da esquerda */
+}
+
+h2 {
+    font-weight: bolder;
+    font-size: 40px;
+    margin-bottom: 10%;
+}
+
+h3{
+    font-weight: bolder;
+    color: white;
+    font-size: 30px;
+}
+
+.columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 136px; /* Espaçamento superior para evitar sobreposição com o título */
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Alinha o conteúdo ao topo da coluna */
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 22%; /* Ajusta a largura das colunas */
+    height: auto; /* Permite que a altura das colunas se ajuste ao conteúdo */
+}
+
+@media (max-width: 768px) {
+    .columns {
+        flex-direction: column;
+        height: auto;
+        margin-top: 150px; /* Ajusta o espaçamento superior no modo mobile */
+    }
+
+    .column {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}

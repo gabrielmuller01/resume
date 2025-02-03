@@ -1,0 +1,24 @@
+@media (max-width: 768px) {
+    .carousel-control-prev,
+    .carousel-control-next {
+      display: none;
+    }
+  }
+
+/* Ajusta a posição das setas de navegação no desktop */
+.carousel-control-prev {
+    left: 0;
+    width: auto;
+    padding-left: 10px; /* Ajuste conforme necessário */
+  }
+  
+  .carousel-control-next {
+    right: 0;
+    width: auto;
+    padding-right: 10px; /* Ajuste conforme necessário */
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-size: 100%, 100%;
+  }

@@ -1,0 +1,14 @@
+.page1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px; /* Adiciona espaço para a navbar */
+    height: 100vh;
+    padding-top: 50px; /* Espaçamento no topo */
+}
+
+.main-name{
+    text-align: center;
+}
+
